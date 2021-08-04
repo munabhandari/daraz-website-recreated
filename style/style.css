@@ -1,19 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.bg-light-grey {
+  background-color: #e7e8ec !important;
+}
+
+.bg-orange {
+  background-color: #f36f36 !important;
+}
+
+body {
   color: #212121;
   background-color: #e7e8ec;
 }
-
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body .container {
   width: 77% !important;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
 }
-body .top-ad-banner {
-  background-color: #d39a18 !important;
+body .top-ad1 {
+  background-color: #fbb030 !important;
 }
 body header nav .navbar-nav .nav-item .nav-link {
   color: #212121;
@@ -27,10 +36,61 @@ body header nav .navbar-nav .nav-item .nav-link:hover {
 body header nav .navbar-nav .nav-item .nav-link.active {
   color: #f36f36;
 }
-body header .bottom-navbar {
-  background-color: #fff;
-}
 body header .bottom-navbar .header-logo img {
   width: 135px;
   height: 41px;
+}
+body header .bottom-navbar input {
+  padding: 5px 15px;
+  border: none;
+}
+body header .bottom-navbar .input-group-text {
+  padding: 0 10px;
+}
+body header .bottom-navbar i {
+  font-size: 25px;
+  line-height: 45px;
+}
+body header .bottom-navbar a {
+  line-height: 45px;
+  align-self: center;
+}
+body .banner .img-container1 {
+  background-color: #e7e8ec;
+}
+body .banner .slide1 {
+  background-color: #0c263e;
+}
+body .banner .slide2 {
+  background-color: #f8d09a;
+}
+body .banner .slide3 {
+  background-color: #ffac10;
+}
+body .banner .slide4 {
+  background-color: #6d2ca0;
+}
+body .banner .slide5 {
+  background-color: #fc5697;
+}
+body .banner .slide6 {
+  background-color: #eff0f5;
+}
+body .banner .slide7 {
+  background-color: #94e1ea;
+}
+body .banner .slide8 {
+  background-color: #94e1ea;
+}
+body .banner .carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+body main {
+  background-color: #e7e8ec;
+}
+body .channels .channels-group {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

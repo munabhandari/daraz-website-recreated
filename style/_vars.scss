@@ -1,4 +1,13 @@
-$dark-yellow: #d39a18;
+$dark-yellow: #fbb030;
 $orange: #f36f36;
 $grey-dark: rgb(33, 33, 33);
 $white: #fff;
+$light-grey: #e7e8ec;
+$dark-blue: #0c263e;
+
+.bg-light-grey{
+    background-color: $light-grey !important;
+}
+.bg-orange{
+    background-color: $orange !important;
+}

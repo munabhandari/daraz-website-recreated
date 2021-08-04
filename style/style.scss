@@ -2,22 +2,25 @@
 @import 'vars';
 @import 'utility';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: rgb(33, 33, 33);
-    background-color: #e7e8ec;
-}
 
 body {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    color: rgb(33, 33, 33);
+    background-color: $light-grey;
+
     .container {
         width: 77% !important;
         font-size: 12px;
         font-family: 'Roboto', sans-serif;
     }
 
-    .top-ad-banner {
+    .top-ad1 {
         background-color: $dark-yellow !important;
 
     }
@@ -45,53 +48,87 @@ body {
         }
 
         .bottom-navbar {
-            background-color: $white;
-
             .header-logo {
                 img {
                     width: 135px;
                     height: 41px;
                 }
             }
+
+            input {
+                padding: 5px 15px;
+                border: none;
+            }
+
+            .input-group-text {
+                padding: 0 10px;
+            }
+
+            i {
+                font-size: 25px;
+                line-height: 45px;
+            }
+
+            a {
+                line-height: 45px;
+                align-self: center;
+            }
         }
     }
-}
 
+    .banner {
+        .img-container1 {
+            background-color: $light-grey;
+        }
 
+        .slide1 {
+            background-color: #0c263e;
+        }
 
+        .slide2 {
+            background-color: rgb(248, 208, 154);
+        }
 
+        .slide3 {
+            background-color: rgb(255, 172, 16);
+        }
 
+        .slide4 {
+            background-color: rgb(109, 44, 160)
+        }
 
+        .slide5 {
+            background-color: rgb(252, 86, 151);
+        }
 
+        .slide6 {
+            background-color: rgb(239, 240, 245);
+        }
 
+        .slide7 {
+            background-color: rgb(148, 225, 234);
+        }
 
+        .slide8 {
+            background-color: rgb(148, 225, 234);
+        }
+        .carousel-indicators [data-bs-target]{
+            height: 10px;
+            width: 10px;
+            border-radius: 100%;
+        }
+    }
 
+    main {
+        background-color: $light-grey;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .channels {
+        .channels-group {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 
 
 
