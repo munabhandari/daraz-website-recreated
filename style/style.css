@@ -18,7 +18,7 @@ body * {
   box-sizing: border-box;
 }
 body .container {
-  width: 77% !important;
+  max-width: 1188px;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
 }
@@ -155,4 +155,39 @@ body main .ad-2 {
 body .channels .channels-group {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+body .channels .channels-group a {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 0px 4px;
+  width: 18%;
+  color: #212121;
+  line-height: 46px;
+  background-color: white;
+  border-radius: 30px;
+  border-color: #dcd2d2;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+body .channels .channels-group a img {
+  width: 30px;
+}
+body .channels .channels-group a:hover {
+  color: #6b299c;
+  position: relative;
+}
+body .channels .channels-group a:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  font-weight: 900;
+  right: 10px;
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+}
+body .flash-sell {
+  font-size: 22px;
+  color: #424242;
 }/*# sourceMappingURL=style.css.map */

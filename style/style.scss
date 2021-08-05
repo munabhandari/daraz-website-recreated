@@ -15,7 +15,8 @@ body {
     background-color: $light-grey;
 
     .container {
-        width: 77% !important;
+        // width: 77% !important;
+        max-width: 1188px;
         font-size: 12px;
         font-family: 'Roboto', sans-serif;
     }
@@ -85,7 +86,6 @@ body {
             background-color: $white;
             width: 200px;
             height: 400px;
-
             margin: 0;
             padding: 0;
 
@@ -204,7 +204,92 @@ body {
         .channels-group {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
+            a {
+                margin-top: 10px;
+                display: inline-block;
+                padding: 0px 4px;
+                width: 18%;
+                color: $grey-dark;
+                line-height: 46px;
+                background-color: white;
+                border-radius: 30px;
+                border-color: rgb(220, 210, 210);
+
+                img {
+                    width: 30px;
+                }
+
+                text-decoration: none;
+                font-size: 18px;
+                box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+                &:hover {
+                    color: $light-blue;
+                    position: relative;
+                    &:after {
+                        content: '\f105';
+                        position: absolute;
+                        bottom: 0px;
+                        font-weight: 900;
+                        right: 10px;
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 25px;
+                    }
+
+                }
+            }
+
+            // display: flex;
+            // justify-content: space-between;
+
+            // .mall {
+            //     // padding: 9px 76px 3px 3px;
+            //     background-color: white;
+            //     border-radius: 30px;
+            //     border-color: rgb(220, 210, 210);
+            //     margin: 25px 0px;
+            //     width: 20%;
+
+            //     &:hover {
+            //         box-shadow: 2px 2px 11px 0px;
+            //     }
+
+            //     a {
+            //         color: $grey-dark;
+            //         text-decoration: none;
+            //         display: block;
+
+            //         span {
+
+            //             line-height: 32.8px;
+            //             display: inline-block;
+            //         }
+
+            //     }
+
+            //     a:hover {
+            //         color: $light-blue;
+
+            //     }
+
+            //     img {
+            //         width: 30px;
+            //         height: 30px;
+            //     }
+
+            //     span {
+            //         font-size: 18px;
+            //         line-height: 20px;
+            //         padding-left: 5px;
+
+            //     }
+            // }
         }
+    }
+
+    .flash-sell {
+        font-size: 22px;
+        color: #424242;
     }
 
 
