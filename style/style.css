@@ -8,6 +8,13 @@
   background-color: #f36f36 !important;
 }
 
+#timer span {
+  display: inline-block;
+  background-color: #f36f36;
+  color: #fff;
+  padding: 8px 10px;
+}
+
 body {
   color: #212121;
   background-color: #f8f8f8;
@@ -190,4 +197,18 @@ body .channels .channels-group a:hover:after {
 body .flash-sell {
   font-size: 22px;
   color: #424242;
+}
+body .flash-sell .sell-container .container .first-row {
+  text-align: right;
+  border-bottom: 1px solid #f8f8f8;
+}
+body .flash-sell .sell-container .container .first-row .first,
+body .flash-sell .sell-container .container .first-row .last {
+  line-height: 34px;
+}
+body .flash-sell .sell-container .container .first-row a {
+  border: 1px solid #f36f36;
+  padding: 10px 15px;
+  color: #f36f36;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import 'vars';
 @import 'utility';
-
+@import 'count_down';
 
 body {
 
@@ -205,6 +205,7 @@ body {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+
             a {
                 margin-top: 10px;
                 display: inline-block;
@@ -222,10 +223,12 @@ body {
 
                 text-decoration: none;
                 font-size: 18px;
-                box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+
                 &:hover {
                     color: $light-blue;
                     position: relative;
+
                     &:after {
                         content: '\f105';
                         position: absolute;
@@ -290,11 +293,32 @@ body {
     .flash-sell {
         font-size: 22px;
         color: #424242;
+
+        .sell-container {
+
+            .container {
+                .first-row {
+
+                    .first,
+                    .last {
+
+                        line-height: 34px;
+                    }
+
+                    text-align: right;
+                    border-bottom: 1px solid $light-grey;
+
+                    a {
+                        border: 1px solid $orange;
+                        padding: 10px 15px;
+                        color: $orange;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
     }
-
-
-
-
 }
+
 
 @import 'responsive';

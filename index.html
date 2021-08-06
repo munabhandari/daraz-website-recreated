@@ -281,25 +281,46 @@
             <div class="container">
                 <h4 class="pb-2">Flash Sale</h4>
             </div>
-            <div class="sell">
-
+            <div class="sell-container my-2">
+                <div class="container">
+                    <div class="row bg-white py-3 first-row">
+                        <div class="col-md-1 first">
+                            On Sale Now
+                        </div>
+                        <div class="col-md-2">
+                            Ending in
+                            <span id="timer">
+                                <span class="hours">6677</span> :
+                                <span class="minutes">6677</span> : 
+                                <span class="seconds">6677</span>
+                            </span>
+                        </div>
+                        <div class="offset-md-7 col-md-2">
+                            <a href="/">SHOP MORE</a>
+                        </div>
+                    </div>
+                    <div class="row bg-white py-2 first-row">
+                        asdad
+                    </div>
+                </div>
             </div>
-
         </section>
 
     </main>
-
-
-
-
-
-
-
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="jquery.countdown.min.js"></script>
+    <script>
+        $('#timer').countdown({
+            date: '12/24/2021 23:59:59'
+        }, function () {
+            alert('Merry Christmas!');
+        });
+    </script>
+
 </body>
 
 </html>
