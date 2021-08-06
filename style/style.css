@@ -325,4 +325,17 @@ body .Just-For-You .card-container .card .card-bottom .star-group i {
 }
 body .Just-For-You .card-container .card .card-bottom .star-group span {
   color: #8e8b8b;
+}
+body button {
+  margin: auto;
+  display: block;
+  width: 387px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #1a9cb8;
+  border: 1px solid #1a9cb8;
+  text-transform: uppercase;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
