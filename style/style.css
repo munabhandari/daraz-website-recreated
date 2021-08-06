@@ -200,15 +200,59 @@ body .flash-sell {
 }
 body .flash-sell .sell-container .container .first-row {
   text-align: right;
-  border-bottom: 1px solid #f8f8f8;
+  border-bottom: 1px solid #e9e5e5;
 }
 body .flash-sell .sell-container .container .first-row .first,
 body .flash-sell .sell-container .container .first-row .last {
   line-height: 34px;
+  color: #f36f36;
 }
 body .flash-sell .sell-container .container .first-row a {
   border: 1px solid #f36f36;
   padding: 10px 15px;
   color: #f36f36;
   display: inline-block;
+  text-decoration: none;
+}
+body .flash-sell .sell-container .container .card-container .card {
+  border: none;
+}
+body .flash-sell .sell-container .container .card-container .card:hover {
+  box-shadow: 0px 3px 18px -8px;
+}
+body .flash-sell .sell-container .container .card-container .card .img-container img {
+  width: 100%;
+  margin-bottom: 4px;
+}
+body .flash-sell .sell-container .container .card-container .card .card-bottom {
+  padding: 0px 0px 20px 10px;
+}
+body .flash-sell .sell-container .container .card-container .card .card-bottom .card-title {
+  color: #212121;
+  font-size: 15px;
+  line-height: 18px;
+}
+body .flash-sell .sell-container .container .card-container .card .card-bottom .card-price {
+  color: #f36f36;
+  font-size: 18px;
+}
+body .flash-sell .sell-container .container .card-container .card .card-bottom .card-discounted-price .deleted-price {
+  color: grey;
+}
+body .categories .card-container a {
+  color: #212121;
+  text-decoration: none;
+  font-size: 15px;
+}
+body .categories .card-container .card {
+  border: 1px solid #cbc4c4;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+body .categories .card-container .card:hover {
+  box-shadow: 0px 3px 18px -8px;
+}
+body .categories .card-container .card .text-card {
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */

@@ -295,7 +295,6 @@ body {
         color: #424242;
 
         .sell-container {
-
             .container {
                 .first-row {
 
@@ -303,21 +302,83 @@ body {
                     .last {
 
                         line-height: 34px;
+                        color: $orange;
+
                     }
 
                     text-align: right;
-                    border-bottom: 1px solid $light-grey;
+                    border-bottom: 1px solid $grey-white;
 
                     a {
                         border: 1px solid $orange;
                         padding: 10px 15px;
                         color: $orange;
                         display: inline-block;
+                        text-decoration: none;
                     }
+                }
+
+                .card-container {
+                    .card {
+                        border: none;
+                        &:hover{
+                            box-shadow: 0px 3px 18px -8px;
+                        }
+                        .img-container {
+                            img {
+                                width: 100%;
+                                margin-bottom: 4px;
+                            }
+                        }
+                         
+                        .card-bottom {
+                              padding: 0px 0px 20px 10px;
+                            .card-title {
+                                color: $grey-dark;
+                                font-size: 15px;
+                                line-height: 18px;                               
+                            }
+
+                            .card-price {
+                                 color: $orange;
+                                 font-size: 18px;
+                                 
+                            }
+                            .card-discounted-price{
+                                .deleted-price{
+                                    color: grey;
+                                }
+                            }
+                        }
+                    }
+
                 }
             }
         }
     }
+
+    .categories{
+        .card-container{     
+            a{
+                color: $grey-dark;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .card{
+                border: 1px solid rgb(203, 196, 196);
+                padding: 20px;
+                width: 100%;
+                height: 100%;
+                &:hover{
+                    box-shadow: 0px 3px 18px -8px;
+                }               
+                .text-card{
+                    font-size: 13px;
+                }  
+            }
+        }
+    }
+
 }
 
 
