@@ -338,4 +338,21 @@ body button {
   border: 1px solid #1a9cb8;
   text-transform: uppercase;
   cursor: pointer;
+}
+body footer .footer-top {
+  background-color: #2e2e54;
+  color: #fff;
+}
+body footer .footer-top ul {
+  padding-left: 0px;
+}
+body footer .footer-top ul li {
+  list-style: none;
+}
+body footer .footer-top ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+body footer .footer-top ul li a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
