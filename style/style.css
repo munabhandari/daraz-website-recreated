@@ -255,4 +255,74 @@ body .categories .card-container .card:hover {
 }
 body .categories .card-container .card .text-card {
   font-size: 13px;
+}
+body .daraz-mall {
+  font-size: 22px;
+  color: #424242;
+}
+body .daraz-mall .card-container .card {
+  border: none;
+  position: relative;
+}
+body .daraz-mall .card-container .card:hover {
+  box-shadow: 0px 3px 18px -8px;
+}
+body .daraz-mall .card-container .card .img-container img {
+  width: 100%;
+  margin-bottom: 4px;
+}
+body .daraz-mall .card-container .card .card-bottom {
+  padding: 0px 0px 20px 10px;
+  text-align: center;
+}
+body .daraz-mall .card-container .card .card-bottom .card-title1 {
+  color: #212121;
+  font-size: 15px;
+  line-height: 18px;
+}
+body .daraz-mall .card-container .card .card-bottom .card-title2 {
+  color: #8e8b8b;
+  font-size: 12px;
+}
+body .daraz-mall .card-container .card .card-logo {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  height: 5px;
+  width: 5px;
+}
+body .Just-For-You {
+  font-size: 22px;
+  color: #424242;
+}
+body .Just-For-You .card-container .card {
+  border: none;
+}
+body .Just-For-You .card-container .card:hover {
+  box-shadow: 0px 3px 18px -8px;
+}
+body .Just-For-You .card-container .card .img-container img {
+  width: 100%;
+  margin-bottom: 4px;
+}
+body .Just-For-You .card-container .card .card-bottom {
+  padding: 20px 0px 20px 10px;
+}
+body .Just-For-You .card-container .card .card-bottom .card-title {
+  color: #212121;
+  font-size: 15px;
+  line-height: 18px;
+}
+body .Just-For-You .card-container .card .card-bottom .card-price {
+  color: #f36f36;
+  font-size: 18px;
+}
+body .Just-For-You .card-container .card .card-bottom .card-discounted-price .deleted-price {
+  color: grey;
+}
+body .Just-For-You .card-container .card .card-bottom .star-group i {
+  color: #faca51;
+}
+body .Just-For-You .card-container .card .card-bottom .star-group span {
+  color: #8e8b8b;
 }/*# sourceMappingURL=style.css.map */
