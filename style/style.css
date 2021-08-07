@@ -355,4 +355,57 @@ body footer .footer-top ul li a {
 }
 body footer .footer-top ul li a:hover {
   text-decoration: underline;
+}
+body footer .footer-top .top-img-footer .img1 {
+  height: 10px;
+  width: 10px;
+}
+body footer .footer-top .top-img-footer .img1 img {
+  border-radius: 10px;
+}
+body footer .footer-top .top-img-footer .img2 {
+  height: 10%;
+  width: 10%;
+}
+body footer .footer-top .top-img-footer .img2 img {
+  border-radius: 10px;
+}
+body footer .footer-middle .social-icon i {
+  border-radius: 100%;
+  text-align: center;
+  align-self: center;
+}
+body footer .footer-middle .social-icon .facebook {
+  color: #6060f5;
+  border: 1px solid #6060f5;
+}
+body footer .footer-middle .social-icon .instagram {
+  color: #eb1f74;
+  border: 1px solid #eb1f74;
+}
+body footer .footer-middle .social-icon .youtube {
+  color: #a52c2c;
+  border: 1px solid #a52c2c;
+}
+body footer .footer-buttom {
+  background-color: #f8f8f8;
+}
+body footer .footer-buttom h5 {
+  color: #535151;
+}
+body footer .footer-buttom p {
+  color: grey;
+}
+body footer .footer-buttom h6 {
+  color: grey;
+}
+body footer .footer-buttom span {
+  color: #449d9d;
+}
+body footer .footer-buttom .links a, body footer .footer-buttom .third-col a, body footer .footer-buttom .fourth-col a {
+  color: grey;
+  text-decoration: none;
+}
+body footer .footer-buttom .links a:hover, body footer .footer-buttom .third-col a:hover, body footer .footer-buttom .fourth-col a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
