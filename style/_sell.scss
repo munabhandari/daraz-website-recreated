@@ -1,0 +1,55 @@
+
+.sell-on-daraz{
+   main{
+    background-color: $white;
+    
+    .bg-banner-blue{
+        background-color: #055d75!important;
+    }
+    .online-marketing{
+        color: $grey-dark;
+        p{
+            padding: 7px 0px;
+            font-size: 16px;
+            span{
+                color: #2c82c9;
+            }
+        }
+    }
+    .online-nav{
+        .selling-center{
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: #2c82c9;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 15px;
+            }
+        }
+    }
+    .seller-faq{
+        background-color:  #8e8b8b;
+        h4{
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    .faq-question{
+        .faq{
+        p{
+            padding: 10px 0px;
+            font-size: 16px;
+        }
+    }
+    .plus{
+        p{
+            color: $orange; 
+            padding: 10px 0px;
+            font-size: 16px;          
+        }
+    }
+    }
+}
+}

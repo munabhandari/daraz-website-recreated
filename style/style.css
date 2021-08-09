@@ -8,6 +8,10 @@
   background-color: #f36f36 !important;
 }
 
+.bg-dark-blue {
+  background-color: #0c263e !important;
+}
+
 #timer span {
   display: inline-block;
   background-color: #f36f36;
@@ -71,7 +75,7 @@ body .menu-container .side-menu {
   z-index: 2;
   background-color: #fff;
   width: 200px;
-  height: 400px;
+  height: 340px;
   margin: 0;
   padding: 0;
 }
@@ -82,7 +86,7 @@ body .menu-container .side-menu li a {
   width: 100%;
   color: #212121;
   text-decoration: none;
-  padding: 7px;
+  padding: 5px 7px;
   display: inline-block;
 }
 body .menu-container .side-menu li a:hover {
@@ -111,13 +115,16 @@ body .menu-container .side-menu li.has-submenu .submenu {
   padding: 0;
   background-color: #fff;
   width: 200px;
-  height: 400px;
+  height: 340px;
   position: absolute;
   left: 200px;
   top: 0;
 }
 body .banner .img-container1 {
   background-color: #f8f8f8;
+}
+body .banner .carousel-item .container {
+  padding-left: 200px;
 }
 body .banner .slide1 {
   background-color: #0c263e;
@@ -239,21 +246,42 @@ body .flash-sell .sell-container .container .card-container .card .card-bottom .
 body .flash-sell .sell-container .container .card-container .card .card-bottom .card-discounted-price .deleted-price {
   color: grey;
 }
+body .categories .card-container .first-row,
+body .categories .card-container .second-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .categories .card-container .first-row :first-child .card,
+body .categories .card-container .second-row :first-child .card {
+  border-left: none;
+}
+body .categories .card-container .first-row :last-child .card,
+body .categories .card-container .second-row :last-child .card {
+  border-right: none;
+}
+body .categories .card-container .first-row .card {
+  border-top: none;
+}
+body .categories .card-container .second-row .card {
+  border-bottom: none;
+}
 body .categories .card-container a {
   color: #212121;
   text-decoration: none;
   font-size: 15px;
+  width: 145.3px;
+  height: 147.7px;
 }
-body .categories .card-container .card {
-  border: 1px solid #cbc4c4;
+body .categories .card-container a .card {
+  border-radius: 0px;
   padding: 20px;
   width: 100%;
   height: 100%;
 }
-body .categories .card-container .card:hover {
+body .categories .card-container a .card:hover {
   box-shadow: 0px 3px 18px -8px;
 }
-body .categories .card-container .card .text-card {
+body .categories .card-container a .card .text-card {
   font-size: 13px;
 }
 body .daraz-mall {
@@ -272,7 +300,7 @@ body .daraz-mall .card-container .card .img-container img {
   margin-bottom: 4px;
 }
 body .daraz-mall .card-container .card .card-bottom {
-  padding: 0px 0px 20px 10px;
+  padding: 20px 0px 20px 10px;
   text-align: center;
 }
 body .daraz-mall .card-container .card .card-bottom .card-title1 {
@@ -286,10 +314,16 @@ body .daraz-mall .card-container .card .card-bottom .card-title2 {
 }
 body .daraz-mall .card-container .card .card-logo {
   position: absolute;
-  top: 80px;
-  left: 40px;
-  height: 5px;
-  width: 5px;
+  align-self: center;
+  background-color: white;
+  bottom: 70px;
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+  box-shadow: 0px 3px 18px -8px;
+}
+body .daraz-mall .card-container .card .card-logo img {
+  width: 100% !important;
 }
 body .Just-For-You {
   font-size: 22px;
@@ -356,18 +390,11 @@ body footer .footer-top ul li a {
 body footer .footer-top ul li a:hover {
   text-decoration: underline;
 }
-body footer .footer-top .top-img-footer .img1 {
-  height: 10px;
-  width: 10px;
+body footer .footer-top .top-img-footer .footer-logo {
+  padding-top: 48px;
 }
-body footer .footer-top .top-img-footer .img1 img {
-  border-radius: 10px;
-}
-body footer .footer-top .top-img-footer .img2 {
-  height: 10%;
-  width: 10%;
-}
-body footer .footer-top .top-img-footer .img2 img {
+body footer .footer-top .top-img-footer .footer-logo img {
+  width: 30%;
   border-radius: 10px;
 }
 body footer .footer-middle .social-icon i {
@@ -402,10 +429,58 @@ body footer .footer-buttom h6 {
 body footer .footer-buttom span {
   color: #449d9d;
 }
-body footer .footer-buttom .links a, body footer .footer-buttom .third-col a, body footer .footer-buttom .fourth-col a {
+body footer .footer-buttom .links a,
+body footer .footer-buttom .third-col a,
+body footer .footer-buttom .fourth-col a {
   color: grey;
   text-decoration: none;
 }
-body footer .footer-buttom .links a:hover, body footer .footer-buttom .third-col a:hover, body footer .footer-buttom .fourth-col a:hover {
+body footer .footer-buttom .links a:hover,
+body footer .footer-buttom .third-col a:hover,
+body footer .footer-buttom .fourth-col a:hover {
   text-decoration: underline;
+}
+
+.sell-on-daraz main {
+  background-color: #fff;
+}
+.sell-on-daraz main .bg-banner-blue {
+  background-color: #055d75 !important;
+}
+.sell-on-daraz main .online-marketing {
+  color: #212121;
+}
+.sell-on-daraz main .online-marketing p {
+  padding: 7px 0px;
+  font-size: 16px;
+}
+.sell-on-daraz main .online-marketing p span {
+  color: #2c82c9;
+}
+.sell-on-daraz main .online-nav .selling-center {
+  text-align: center;
+}
+.sell-on-daraz main .online-nav .selling-center a {
+  text-decoration: none;
+  color: #2c82c9;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+}
+.sell-on-daraz main .seller-faq {
+  background-color: #8e8b8b;
+}
+.sell-on-daraz main .seller-faq h4 {
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+.sell-on-daraz main .faq-question .faq p {
+  padding: 10px 0px;
+  font-size: 16px;
+}
+.sell-on-daraz main .faq-question .plus p {
+  color: #f36f36;
+  padding: 10px 0px;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
