@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px) {
+    header{
+        .bottom-navbar{
+            .navbar-brand{
+                img{
+                    width: 50% !important;                   
+                }
+            }
+            form{
+                margin-top: 10px;
+            }
+        } 
+        .cart{
+            width: 40%;
+        }
+        .gif-img{
+            width: 60%;
+        }
+    }
+    .menu-container{
+        .side-menu{
+            .submenu{
+
+            }
+        }
+    }
+    .banner{
+
+    }
+    main{
+        .ads{
+           a{
+            background-size: 159vw;
+            background-position-x: -30vw;
+            height: 65px;
+           }
+        }
+        .channels{
+            .channels-group{
+                a{
+                    width: auto;
+                    font-size: 16px;
+                    padding: 0px 7px;
+                }
+            }
+        }
+        .flash-sell{
+            .sell-container{
+                .sale-countdown{
+                    text-align: left;
+                    >div{
+                        width: auto;
+                    }
+                }
+            }
+        }
+         
+    }
+    
+  }

@@ -492,4 +492,36 @@ body footer .footer-buttom .fourth-col a:hover {
   color: #f36f36;
   padding: 10px 0px;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  header .bottom-navbar .navbar-brand img {
+    width: 50% !important;
+  }
+  header .bottom-navbar form {
+    margin-top: 10px;
+  }
+  header .cart {
+    width: 40%;
+  }
+  header .gif-img {
+    width: 60%;
+  }
+
+  main .ads a {
+    background-size: 159vw;
+    background-position-x: -30vw;
+    height: 65px;
+  }
+  main .channels .channels-group a {
+    width: auto;
+    font-size: 16px;
+    padding: 0px 7px;
+  }
+  main .flash-sell .sell-container .sale-countdown {
+    text-align: left;
+  }
+  main .flash-sell .sell-container .sale-countdown > div {
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
