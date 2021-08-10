@@ -87,6 +87,7 @@ body .menu-container .side-menu {
   height: 340px;
   margin: 0;
   padding: 0;
+  top: 16px;
 }
 body .menu-container .side-menu li {
   list-style: none;
@@ -495,33 +496,44 @@ body footer .footer-buttom .fourth-col a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  header .bottom-navbar .navbar-brand img {
+  body header .bottom-navbar .navbar-brand img {
     width: 50% !important;
   }
-  header .bottom-navbar form {
+  body header .bottom-navbar form {
     margin-top: 10px;
   }
-  header .cart {
+  body header .cart {
     width: 40%;
   }
-  header .gif-img {
+  body header .gif-img {
     width: 60%;
   }
-
-  main .ads a {
+  body .menu-container .side-menu {
+    top: 50px;
+  }
+  body .banner .carousel-item .container {
+    padding: 2px;
+  }
+  body main .ads a {
     background-size: 159vw;
     background-position-x: -30vw;
     height: 65px;
   }
-  main .channels .channels-group a {
+  body main .channels .channels-group a {
     width: auto;
     font-size: 16px;
     padding: 0px 7px;
   }
-  main .flash-sell .sell-container .sale-countdown {
+  body main .flash-sell .sell-container .sale-countdown {
     text-align: left;
   }
-  main .flash-sell .sell-container .sale-countdown > div {
+  body main .flash-sell .sell-container .sale-countdown > div {
     width: auto;
+  }
+  body main .categories .card-container > div {
+    justify-content: center;
+  }
+  body main .categories .card-container .card {
+    border: 1px solid #f8f8f8 !important;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,60 +1,81 @@
 @media only screen and (max-width: 600px) {
-    header{
-        .bottom-navbar{
-            .navbar-brand{
-                img{
-                    width: 50% !important;                   
+    body {
+        header {
+            .bottom-navbar {
+                .navbar-brand {
+                    img {
+                        width: 50% !important;
+                    }
+                }
+
+                form {
+                    margin-top: 10px;
                 }
             }
-            form{
-                margin-top: 10px;
-            }
-        } 
-        .cart{
-            width: 40%;
-        }
-        .gif-img{
-            width: 60%;
-        }
-    }
-    .menu-container{
-        .side-menu{
-            .submenu{
 
+            .cart {
+                width: 40%;
+            }
+
+            .gif-img {
+                width: 60%;
             }
         }
-    }
-    .banner{
 
-    }
-    main{
-        .ads{
-           a{
-            background-size: 159vw;
-            background-position-x: -30vw;
-            height: 65px;
-           }
+        .menu-container {
+            .side-menu {
+                top: 50px;
+
+                .submenu {}
+            }
         }
-        .channels{
-            .channels-group{
-                a{
-                    width: auto;
-                    font-size: 16px;
-                    padding: 0px 7px;
+
+        .banner {
+            .carousel-item .container{
+                padding: 2px;
+            }
+        }
+
+        main {
+            .ads {
+                a {
+                    background-size: 159vw;
+                    background-position-x: -30vw;
+                    height: 65px;
                 }
             }
-        }
-        .flash-sell{
-            .sell-container{
-                .sale-countdown{
-                    text-align: left;
-                    >div{
+
+            .channels {
+                .channels-group {
+                    a {
                         width: auto;
+                        font-size: 16px;
+                        padding: 0px 7px;
                     }
                 }
             }
+
+            .flash-sell {
+                .sell-container {
+                    .sale-countdown {
+                        text-align: left;
+
+                        >div {
+                            width: auto;
+                        }
+                    }
+                }
+            }
+            .categories .card-container{
+                >div{
+                    justify-content: center;
+                }
+                 .card{
+                border: 1px solid $light-grey !important;
+            }
+            }
+
         }
-         
+
     }
-    
-  }
+}
