@@ -25,13 +25,11 @@
         .menu-container {
             .side-menu {
                 top: 50px;
-
-                .submenu {}
             }
         }
 
         .banner {
-            .carousel-item .container{
+            .carousel-item .container {
                 padding: 2px;
             }
         }
@@ -66,13 +64,15 @@
                     }
                 }
             }
-            .categories .card-container{
-                >div{
+
+            .categories .card-container {
+                >div {
                     justify-content: center;
                 }
-                 .card{
-                border: 1px solid $light-grey !important;
-            }
+
+                .card {
+                    border: 1px solid $light-grey !important;
+                }
             }
 
         }
